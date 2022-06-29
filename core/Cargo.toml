@@ -1,0 +1,11 @@
+[package]
+name = "checker-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0", default-features = false }
+blake2b-ref = { version = "0.3.0", default-features = false}
+sparse-merkle-tree =  { version = "0.5.3", default-features = false}
